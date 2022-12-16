@@ -2,7 +2,7 @@
 -- +migrate StatementBegin
 
 CREATE TABLE pinjam_buku (
-  id BIGINT NOT NULL,
+  id SERIAL NOT NULL,
   id_buku BIGINT,
   id_user_peminjam BIGINT,
   created_by VARCHAR(256),

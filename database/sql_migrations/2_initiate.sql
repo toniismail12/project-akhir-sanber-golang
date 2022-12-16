@@ -2,7 +2,7 @@
 -- +migrate StatementBegin
 
 CREATE TABLE "users" (
-  id BIGINT NOT NULL,
+  id SERIAL NOT NULL,
   username VARCHAR(256),
   "password" VARCHAR(256),
   email VARCHAR(256),

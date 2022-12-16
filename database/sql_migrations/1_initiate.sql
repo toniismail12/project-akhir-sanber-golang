@@ -2,7 +2,7 @@
 -- +migrate StatementBegin
 
 CREATE TABLE buku (
-  id BIGINT NOT NULL,
+  id SERIAL NOT NULL,
   judul_buku VARCHAR(256),
   author VARCHAR(256),
   tahun_terbit BIGINT,
